@@ -1,0 +1,26 @@
+.container{
+    /* display: flex;
+    flex-direction: row; */
+    display: inline-flex;
+    flex:1 1 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.icon{
+    padding: 0.8rem;
+}
+
+.searchBar{
+    border: 0;
+    flex:1;
+}
+
+.searchButton{
+    color: white;
+    background-color: dodgerblue;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 0px 8px 8px 0px;
+}
